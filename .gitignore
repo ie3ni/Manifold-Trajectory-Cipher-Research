@@ -1,0 +1,19 @@
+# === Python Build & Runtime Noise ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# === IDE & Local Environment Clutter ===
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# === Project Specific (Optional) ===
+# Uncomment the line below if your cryptanalysis suites dump massive local log text files
+*.log
